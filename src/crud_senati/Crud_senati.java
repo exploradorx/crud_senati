@@ -15,6 +15,9 @@ public class Crud_senati {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Conexion cn = new Conexion();
+        
+        cn.conectar();
     }
     
 }
